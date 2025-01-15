@@ -11,6 +11,9 @@ importers:
       bench-node:
         specifier: ^0.5.0
         version: 0.5.0
+      tinybench:
+        specifier: ^3.1.0
+        version: 3.1.0
 
 packages:
 
@@ -120,6 +123,10 @@ packages:
   piscina@4.8.0:
     resolution: {integrity: sha512-EZJb+ZxDrQf3dihsUL7p42pjNyrNIFJCrRHPMgxu/svsj+P3xS3fuEWp7k2+rfsavfl1N0G29b1HGs7J0m8rZA==}
 
+  tinybench@3.1.0:
+    resolution: {integrity: sha512-Km+oMh2xqNCxuyoUsqbRmHgFSd8sATh7v7xreP+kHN6x67w28Pawr83WmBxcaORvxkc0Ex6zgqK951yBnTFaaQ==}
+    engines: {node: '>=18.0.0'}
+
 snapshots:
 
   '@napi-rs/nice-android-arm-eabi@1.0.1':
@@ -197,3 +204,5 @@ snapshots:
   piscina@4.8.0:
     optionalDependencies:
       '@napi-rs/nice': 1.0.1
+
+  tinybench@3.1.0: {}
