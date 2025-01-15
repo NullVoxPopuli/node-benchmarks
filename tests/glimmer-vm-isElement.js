@@ -44,12 +44,12 @@ suite.add('<regex>/v', () => {
   elements.forEach(d => rV.exec(d))
 });
 
-console.log('\n\nIn workers');
-await workerSuite.run()
-
-console.log('\n\nNot in workers');
-await suite.run();
-
+// console.log('\n\nIn workers');
+// await workerSuite.run()
+//
+// console.log('\n\nNot in workers');
+// await suite.run();
+//
 console.log('\n\nwith tinybench');
 const bench = new Bench({
   name: 'regex flag comparison', time: 100,
