@@ -11,6 +11,9 @@ importers:
       bench-node:
         specifier: ^0.5.0
         version: 0.5.0
+      mitata:
+        specifier: ^1.0.30
+        version: 1.0.30
       prettier:
         specifier: ^3.4.2
         version: 3.4.2
@@ -123,6 +126,9 @@ packages:
   bench-node@0.5.0:
     resolution: {integrity: sha512-Db8kKZgFGdmJN1Agl3eTxySBSQX6REZjMjZpaOgU0p2crQa3kZSTdQbYapsIcxv7K3e67ViiOwE7+sWhbfVVPQ==}
 
+  mitata@1.0.30:
+    resolution: {integrity: sha512-zefhVHdXznlD92aojkn7sZ+ZUzvbG8vmFvLllIHZZoUwGlO+YMqMbnA3tcutwe/yAVdkL5/3z65isEfvdomoJQ==}
+
   piscina@4.8.0:
     resolution: {integrity: sha512-EZJb+ZxDrQf3dihsUL7p42pjNyrNIFJCrRHPMgxu/svsj+P3xS3fuEWp7k2+rfsavfl1N0G29b1HGs7J0m8rZA==}
 
@@ -208,6 +214,8 @@ snapshots:
   bench-node@0.5.0:
     dependencies:
       piscina: 4.8.0
+
+  mitata@1.0.30: {}
 
   piscina@4.8.0:
     optionalDependencies:
